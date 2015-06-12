@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import cn.trinea.android.demo.utils.AppUtils;
 
-import com.google.analytics.tracking.android.EasyTracker;
+//import com.google.analytics.tracking.android.EasyTracker;
 
 /**
  * BaseFragmentActivity
@@ -44,13 +44,13 @@ public class BaseFragmentActivity extends FragmentActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        EasyTracker.getInstance(this).activityStart(this);
+        //EasyTracker.getInstance(this).activityStart(this);
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        EasyTracker.getInstance(this).activityStop(this);
+        //EasyTracker.getInstance(this).activityStop(this);
     }
 
     @Override

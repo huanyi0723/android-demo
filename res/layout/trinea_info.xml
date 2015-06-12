@@ -28,13 +28,6 @@
         android:layout_below="@+id/trinea_info"
         layout="@layout/divider" />
 
-    <com.google.ads.AdView
-        android:id="@+id/ad_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/divider_2"
-        ads:adSize="BANNER"
-        ads:adUnitId="a152c7c42a5a281"
-        ads:loadAdOnCreate="true" />
+
 
 </RelativeLayout>

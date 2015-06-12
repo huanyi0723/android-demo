@@ -138,9 +138,6 @@
             android:label="@string/service_demo_activity_title"
             android:theme="@style/AppTheme" >
         </activity>
-        <activity
-            android:name="com.google.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
     </application>
 
 </manifest>
